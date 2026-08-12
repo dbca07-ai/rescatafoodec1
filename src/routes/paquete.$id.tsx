@@ -381,3 +381,7 @@ function PaqueteDetalle() {
   );
 
 } 
+// ============ REGISTRO DE LA RUTA (¡Lo que faltaba!) ============
+export const Route = createFileRoute('/paquete/$id')({
+  component: PaqueteDetalle,
+});
